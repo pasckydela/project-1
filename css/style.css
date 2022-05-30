@@ -93,3 +93,82 @@ color: rgb(228, 226, 234);
 .btn:hover{
   background: brown;
 }
+
+/* what we do */
+.items{
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i{
+background: purple;
+color: aqua;
+padding: 1rem;
+border-radius: 50%;
+}
+
+#who{
+  display: flex;
+}
+
+#who div{
+  flex: 1;
+}
+
+#who .who-img{
+  background: url("../img/lulu.jpg") no-repeat center center/cover;
+}
+
+bg-light{
+  background: blue;
+  color: aliceblue;
+}
+
+bg-dark{
+  color: rgb(226, 43, 116);
+  background: #fff;
+
+}
+
+.p1{
+  padding: 3;
+}
+
+.p-2{
+  padding: 2rem;
+}
+.p3{
+  padding: 3rem;
+}
+
+.list{
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li{
+  padding: 0.5rem 0;
+  border-bottom:#444 dotted 1px;
+}
+
+/* client */
+#client{
+  display: flex;;
+  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#client .items img{
+  display: block;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+}
