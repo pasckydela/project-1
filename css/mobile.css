@@ -1,0 +1,71 @@
+#what .items{
+  display: block;
+}
+
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* positing */
+#what .item .item i{
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0 ;
+
+}
+/* smartphone */
+@media (max-width:500px){
+  #navbar{
+  flex-direction: colum;
+  align-items: center;
+  }
+
+  #navbar .logo{
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem
+
+}
+#showcase .showcase-conrent{
+  top: 110px;
+
+}
+#who{
+  display: block;
+}
+
+#who .who-img{
+  display:none ;
+}
+
+#clients .item img{
+  width: 75%;
+  height: 50px;
+}
+
+
+#contact{
+
+}
+
+@media (max-width: 568px){
+  #showcase .showcase-conrent{
+    margin-top: -2rem;
+    top: 140px;
+  }
+
+  .i-heading{
+    font-style: 3rem;
+  }
+
+  .lead{
+    font-size: 1rem;
+  }
+}
+
+}
+
+  
